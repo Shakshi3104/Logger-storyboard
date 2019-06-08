@@ -46,7 +46,7 @@
 		CEA8E8DE228908E500BBB84C = {
 			isa = PBXGroup;
 			children = (
-				CEA8E8E9228908E500BBB84C /* Loger */,
+				CEA8E8E9228908E500BBB84C /* Logger */,
 				CEA8E8E8228908E500BBB84C /* Products */,
 				CEA8E8FC228909F100BBB84C /* Frameworks */,
 			);
@@ -60,7 +60,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEA8E8E9228908E500BBB84C /* Loger */ = {
+		CEA8E8E9228908E500BBB84C /* Logger */ = {
 			isa = PBXGroup;
 			children = (
 				CEA8E8EA228908E500BBB84C /* AppDelegate.swift */,
@@ -71,7 +71,7 @@
 				CEA8E8F6228908E600BBB84C /* Info.plist */,
 				CEA5998022964F6C009C3DBD /* SenserLogger.swift */,
 			);
-			path = Loger;
+			path = Logger;
 			sourceTree = "<group>";
 		};
 		CEA8E8FC228909F100BBB84C /* Frameworks */ = {
