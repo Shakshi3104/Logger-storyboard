@@ -17,6 +17,7 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
     var isImmediatelyMode: Bool = true                   // すぐに計測するかどうか
     var isSessionMode: Bool = false                      // セッションモードかどうか
     
+    // After 5 secモード用
     var startTime: Double = 0.0                         // タイマーのスタート時間
     var timer = Timer()                                 // タイマー
     
