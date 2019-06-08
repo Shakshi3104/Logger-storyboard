@@ -312,8 +312,6 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
                 print(error.localizedDescription)
             }
         }
-        
-        
     }
 }
 
