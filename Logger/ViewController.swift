@@ -39,9 +39,10 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
     @IBOutlet weak var magYLabel: UILabel!
     @IBOutlet weak var magZLabel: UILabel!
     
-    
     // バックグラウンド処理
     var backgroundTaskID: UIBackgroundTaskIdentifier = UIBackgroundTaskIdentifier(rawValue: 0)
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
