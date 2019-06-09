@@ -63,7 +63,6 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
         self.magYLabel.text = "0.0"
         self.magZLabel.text = "0.0"
         
-        
         // スイッチをOFFにしておく
         self.startSwitch.setOn(false, animated: true)
     }
@@ -124,6 +123,12 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
                 
             })
         }
+        else {
+            // iPod touch用
+            self.magXLabel.text = String(Double.nan)
+            self.magYLabel.text = String(Double.nan)
+            self.magZLabel.text = String(Double.nan)
+        }
     }
     
     // センサデータをラベルに表示する
@@ -163,7 +168,6 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
                 
                 // 通知を出す
                 self.putSessionFinishedNotification()
-                
             }
         }
 
