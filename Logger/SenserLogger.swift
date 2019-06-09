@@ -147,6 +147,22 @@ public class MotionSensorLogger {
             isMag = true
         }
         
+        // iPod touch用
+        if !motionManager.isMagnetometerAvailable {
+            // 欠損値を詰める
+            tmp.append(contentsOf: String(Double.nan) + ",")
+            tmp.append(contentsOf: String(Double.nan) + ",")
+            tmp.append(contentsOf: String(Double.nan) + "\n")
+            
+            var tmp_mag = now + ","
+            tmp_mag.append(contentsOf: String(Double.nan) + ",")
+            tmp_mag.append(contentsOf: String(Double.nan) + ",")
+            tmp_mag.append(contentsOf: String(Double.nan) + "\n")
+            
+            self.outputMagnetometerData.append(contentsOf: tmp_mag)
+            isMag = true
+        }
+        
         // すべてのデータが取得できた場合はappendする
         if isAcc && isGyr && isMag {
             self.outputAccelGyroMagnetData.append(contentsOf: tmp)
