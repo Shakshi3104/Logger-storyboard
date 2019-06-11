@@ -27,10 +27,10 @@ public class MotionSensorLogger {
     // イニシャライザ
     public init(){
         // 書き出し用のデータを保持するstringの1行目にカラム
-        self.outputAccelerometerData += self.columnTo3D
-        self.outputGyroscopeData += self.columnTo3D
-        self.outputMagnetometerData += self.columnTo3D
-        self.outputAccelGyroMagnetData += self.columnTo3DAll
+        self.outputAccelerometerData = ""
+        self.outputGyroscopeData = ""
+        self.outputMagnetometerData = ""
+        self.outputAccelGyroMagnetData = ""
     }
     
     // csvファイルに書き出す -> [URL]
@@ -49,6 +49,12 @@ public class MotionSensorLogger {
         let magnetFilepath = tmppath + "/magnetometer_\(apd).csv"
         
         let accGyrMagFilepath = tmppath + "/data_\(apd).csv"
+        
+        // データにカラムを追加
+        self.outputAccelerometerData = self.columnTo3D + self.outputAccelerometerData
+        self.outputGyroscopeData = self.columnTo3D + self.outputGyroscopeData
+        self.outputMagnetometerData = self.columnTo3D + self.outputMagnetometerData
+        self.outputAccelGyroMagnetData = self.columnTo3DAll + self.outputAccelGyroMagnetData
         
         /* tmpに書き出す*/
         do {
@@ -149,7 +155,7 @@ public class MotionSensorLogger {
         
         // iPod touch用
         if !motionManager.isMagnetometerAvailable {
-            // 欠損値を詰める
+            // 欠損値で詰める
             tmp.append(contentsOf: String(Double.nan) + ",")
             tmp.append(contentsOf: String(Double.nan) + ",")
             tmp.append(contentsOf: String(Double.nan) + "\n")
@@ -196,10 +202,10 @@ public class MotionSensorLogger {
     // データをリセットする
     public func resetOutputData() {
         // データ保持用のstringをカラムに初期化する
-        self.outputAccelerometerData = self.columnTo3D
-        self.outputGyroscopeData = self.columnTo3D
-        self.outputMagnetometerData = self.columnTo3D
-        self.outputAccelGyroMagnetData = self.columnTo3DAll
+        self.outputAccelerometerData = ""
+        self.outputGyroscopeData = ""
+        self.outputMagnetometerData = ""
+        self.outputAccelGyroMagnetData = ""
     }
     
     // センサデータの取得を停止
