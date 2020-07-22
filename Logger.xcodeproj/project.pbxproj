@@ -18,6 +18,8 @@
 		CEF12F7224C7D412001DA115 /* IMG_1479.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CEF12F6F24C7D412001DA115 /* IMG_1479.PNG */; };
 		CEF12F7324C7D412001DA115 /* IMG_1480.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CEF12F7024C7D412001DA115 /* IMG_1480.PNG */; };
 		CEF12F7424C7D412001DA115 /* IMG_1481.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CEF12F7124C7D412001DA115 /* IMG_1481.PNG */; };
+		CEF12F7724C7D4DE001DA115 /* IMG_1487.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CEF12F7524C7D4DE001DA115 /* IMG_1487.PNG */; };
+		CEF12F7824C7D4DE001DA115 /* IMG_1482.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CEF12F7624C7D4DE001DA115 /* IMG_1482.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		CEF12F6F24C7D412001DA115 /* IMG_1479.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1479.PNG; sourceTree = "<group>"; };
 		CEF12F7024C7D412001DA115 /* IMG_1480.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1480.PNG; sourceTree = "<group>"; };
 		CEF12F7124C7D412001DA115 /* IMG_1481.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1481.PNG; sourceTree = "<group>"; };
+		CEF12F7524C7D4DE001DA115 /* IMG_1487.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1487.PNG; sourceTree = "<group>"; };
+		CEF12F7624C7D4DE001DA115 /* IMG_1482.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1482.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 		CEF12F6E24C7D3AB001DA115 /* materials */ = {
 			isa = PBXGroup;
 			children = (
+				CEF12F7624C7D4DE001DA115 /* IMG_1482.PNG */,
+				CEF12F7524C7D4DE001DA115 /* IMG_1487.PNG */,
 				CEF12F6F24C7D412001DA115 /* IMG_1479.PNG */,
 				CEF12F7024C7D412001DA115 /* IMG_1480.PNG */,
 				CEF12F7124C7D412001DA115 /* IMG_1481.PNG */,
@@ -166,6 +172,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEF12F7224C7D412001DA115 /* IMG_1479.PNG in Resources */,
+				CEF12F7724C7D4DE001DA115 /* IMG_1487.PNG in Resources */,
+				CEF12F7824C7D4DE001DA115 /* IMG_1482.PNG in Resources */,
 				CEF12F7424C7D412001DA115 /* IMG_1481.PNG in Resources */,
 				CEA8E8F5228908E600BBB84C /* LaunchScreen.storyboard in Resources */,
 				CEA8E8F2228908E600BBB84C /* Assets.xcassets in Resources */,

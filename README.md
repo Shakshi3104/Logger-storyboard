@@ -2,7 +2,7 @@
 
 This application can measure acceleraton data, gyroscope data and magnetic data, and save them in CSV file.
 
-![screen1](materials/IMG_1479.PNG)|![screen2](materials/IMG_1480.PNG)|![screen3](materials/IMG_1481.PNG)
+![screen1](materials/IMG_1479.PNG)|![screen2](materials/IMG_1480.PNG)|![screen3](materials/IMG_1482.PNG)
 :-:|:-:|:-:
 
 ## Version
