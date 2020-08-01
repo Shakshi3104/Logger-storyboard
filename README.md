@@ -22,7 +22,7 @@ This application can measure acceleraton data, gyroscope data and magnetic data,
 | 1.0.0 | 2019/5/15 | Measure accelerometer values |
 | 1.1.0 | 2019/5/16 | Background task |
 | 2.0.0 | 2019/5/16 | Collect acceleration data, gyroscope data and magnetic data |
-| 2.1.0 | 2019/5/17 | Add |mmediately / After 5 sec mode |
+| 2.1.0 | 2019/5/17 | Add Immediately / After 5 sec mode |
 | 2.2.0 | 2019/5/23 | Change implementation to use Timer() |
 | 3.0.0 | 2019/5/30 | Add Session / Self mode |
 | 3.1.0 | 2019/5/30 | Add a notification after Session ends |
